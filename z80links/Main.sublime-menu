@@ -1,0 +1,27 @@
+[
+
+	{
+		"caption": "Z80Links",
+		"mnemonic": "L",
+		"id": "z80links",
+		"children":
+		[
+			{
+				"command": "z80_rebuild_links",
+				"args": {},
+				"caption": "Rebuild links",
+				"mnemonic": "r"
+			},
+			{ "caption": "-"},
+			{
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/z80links/z80links.about"
+				},
+				"caption": "About...",
+				"mnemonic": "a"
+			}
+		]
+	}
+
+]
